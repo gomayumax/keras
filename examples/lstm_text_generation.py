@@ -20,7 +20,7 @@ import numpy as np
 import random
 import sys
 
-path = get_file('nietzsche.txt', origin='keras_aaj_data.txt')
+path = get_file('keras_aaj_data.txt', origin='keras_aaj_data.txt')
 text = open(path).read().lower()
 print('corpus length:', len(text))
 
